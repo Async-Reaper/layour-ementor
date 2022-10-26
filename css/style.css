@@ -222,7 +222,9 @@
 }
 
 .banner {
-  background-image: url("../img/banner-background.png");
+  background-image: url(../img/banner-background.png);
+  background-size: cover;
+  background-repeat: no-repeat;  
   margin: 0 0 120px;
   height: 578px;
 }
