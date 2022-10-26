@@ -1,0 +1,96 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Raleway";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #fdfdfd;
+  margin: 0;
+}
+
+.container {
+  max-width: 1160px;
+  margin: 0 auto;
+}
+
+.text__ligth {
+  color: #fdfdfd;
+}
+
+.text__dark {
+  color: #353a5a;
+}
+
+.title__ligth {
+  color: #fdfdfd;
+}
+
+.title__dark {
+  color: #353a5a;
+}
+
+.btn__ligth {
+  min-width: 230px;
+  height: 56px;
+  border-radius: 0px 20px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  text-align: center;
+  color: #fdfdfd;
+  background: #fa9f42;
+  padding: 20px 47px;
+  transition: all 0.5s;
+}
+
+.btn__dark {
+  min-width: 230px;
+  height: 56px;
+  border-radius: 0px 20px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  text-align: center;
+  color: #fdfdfd;
+  background: #10b582;
+  padding: 20px 47px;
+  transition: all 0.5s;
+}
+
+.title {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 58px;
+  line-height: 120%;
+  margin: 0 0 20px;
+}
+
+.btn__ligth:hover,
+.btn__dark:hover {
+  border-radius: 20px 0px;
+}

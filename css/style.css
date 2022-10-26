@@ -1,0 +1,290 @@
+.header {
+  background: #10b582;
+  padding: 0 0 56px;
+}
+
+.nav__link-list {
+  display: flex;
+  justify-content: space-between;
+  max-width: 650px;
+  margin: 0 auto;
+  padding: 40px 0;
+}
+
+.nav__link {
+  color: #fdfdfd;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  transition: all 0.5s;
+}
+
+.nav__link:hover {
+  border-bottom: 1px dashed #fa9f42;
+}
+
+/* top */
+
+.top {
+  background: #10b582;
+  padding: 0 0 120px;
+  margin: 0 0 120px;
+}
+
+.top__wrapper {
+  display: flex;
+  justify-content: space-between;
+  max-height: 572px;
+}
+
+.social__links {
+  margin: 0 0 104px;
+}
+
+.social__link-item {
+  margin: 0 0 30px;
+}
+
+.top__left-image {
+  padding: 0 0 120px;
+}
+
+.top__center-part {
+  text-align: center;
+  padding: 92px 0 0;
+}
+
+.top__title {
+  color: #fdfdfd;
+  margin: 20px 0;
+}
+
+.top__text {
+  width: 380px;
+  margin: 0 auto 50px;
+}
+
+.btn__show {
+  background: #fa9f42;
+}
+
+.top__rigth-part {
+  height: 560px;
+  position: relative;
+}
+
+.top__rigth-link {
+  text-align: right;
+}
+
+.top__rigth-image {
+  margin: 0 0 220px;
+}
+
+.top__image-rigth {
+  position: relative;
+}
+
+.top__image-rigth::before {
+  content: url("../img/border-rigth-image.svg");
+  position: absolute;
+}
+
+.top__image {
+  padding: 30px 0 0;
+}
+
+.link__bottom {
+  position: relative;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  color: #fdfdfd;
+}
+
+.link__bottom::before {
+  position: absolute;
+  content: url("../img/arrow-down.svg");
+  left: -25px;
+}
+
+/*numbers */
+.numbers {
+  margin: 0 0 120px;
+}
+
+.numbers__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.numbers__item {
+  text-align: center;
+}
+
+.number__title {
+  font-weight: 500;
+  font-size: 58px;
+  line-height: 58px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #10b582;
+  margin: 0 0 15px;
+}
+
+.number__text {
+  color: #353a5a;
+  max-width: 250px;
+}
+
+.teachers {
+  margin: 0 0 120px;
+}
+
+.teachers__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.teachers__title {
+  color: #353a5a;
+}
+
+.teachers__text {
+  color: #353a5a;
+  max-width: 440px;
+  margin: 0 0 50px;
+}
+
+.teacher__btn {
+  background: #10b582;
+}
+
+.teachers__img-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 30px;
+}
+
+.teachers__img-item {
+  max-width: 170px;
+}
+
+.img__info {
+  color: #353a5a;
+}
+
+.format {
+  margin: 0 0 120px;
+  background: #10b582;
+}
+
+.format__wrapper {
+  display: flex;
+  padding: 120px 0;
+  justify-content: space-between;
+}
+
+.format__info {
+  max-width: 500px;
+}
+
+.format__text {
+  margin: 0 0 50px;
+}
+
+.courses {
+  margin: 0 0 120px;
+}
+
+.courses__wrapper {
+  text-align: center;
+}
+
+.title__courses {
+  margin: 0 0 60px !important;
+}
+
+.courses__list {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0 60px;
+}
+
+.courses__item {
+  box-shadow: 5px 5px 30px rgba(101, 101, 101, 0.12);
+  border-radius: 10px;
+  padding: 20px;
+  text-align: left;
+}
+
+.courses__item img {
+  margin: 0 0 15px;
+}
+
+.banner {
+  background-image: url("../img/banner-background.png");
+  margin: 0 0 120px;
+  height: 578px;
+}
+
+.banner__wrapper {
+  max-width: 508px;
+  float: right;
+  height: 578px;
+  display: flex;
+  align-items: center;
+}
+
+.banner__text {
+  margin: 0 0 60px;
+}
+
+.footer {
+  padding: 80px 0 0;
+  border-top: 1px solid #353a5a;
+}
+
+.footer_social__link-list {
+  display: flex;
+  justify-content: space-between;
+  max-width: 116px;
+}
+
+.footer__info-text {
+  max-width: 270px;
+  margin: 20px 0 50px;
+}
+
+.footer__main {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0 0 50px;
+}
+
+.footer__link-item {
+  padding: 0 0 20px;
+}
+
+.footer__link-title {
+  font-weight: 500;
+  margin: 0 0 30px;
+}
+
+.feedback {
+  max-width: 170px;
+}
+
+.footer__additional {
+  border-top: 1px solid #353a5a;
+  padding: 30px 0;
+}
+
+.additional__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.additional__link + .additional__link {
+  padding: 0 0 0 30px;
+}
